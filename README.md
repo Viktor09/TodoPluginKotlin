@@ -5,7 +5,7 @@
 ### 1. About the plugin
 
 It's a plugin that help programmers to prevent writing multiple commentaries in a place.
-Instead of the you mark your todo with an index like `//TODO() index` and it will pop out an text box where u can write in details what u have to do in that task.
+Instead of writing long commentaries, you mark your todo with an index like `//TODO() index` and it will pop out an text box where u can write in details what u have to do in that task.
 
 ### 2. Steps to run it
 
