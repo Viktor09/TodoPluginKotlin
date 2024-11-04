@@ -12,8 +12,8 @@ Instead of the you mark your todo with an index like `//TODO() index` and it wil
 First of all, you build the code with the gradle provided or simply write in terminal `./gradle build`.
 After it's build u run in gradle/intelij/runIde or `./gradle runIde`.
 Then it will open a new intelij project to test the plugin.
-Secondly, you will have a button on the right corner at the task bar like this: ![Alt text](images/offstate.png)
+Secondly, you will have a button on the right corner at the task bar like this: ![Alt text](todoplugin/images/offstate.png)
 Just press it and the plugin is activated.
 Thirdly, when u hover the text `TODO() index` it will appear a text box where u can write the tasks at that part of the code.
-Here is how it looks: ![Alt text](images/firsttask.png)
-![Alt text](images/secondtask.png)
+Here is how it looks: ![Alt text](todoplugin/images/firsttask.png)
+![Alt text](todoplugin/images/secondtask.png)
