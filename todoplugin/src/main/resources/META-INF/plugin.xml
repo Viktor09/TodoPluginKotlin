@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.todogroup</id>
+    <name>Plugin todo note</name>
+    <vendor email="victormandescu@gmail.com">No company name</vendor>
+
+    <description>
+        <![CDATA[The project is a plugin that helps programmers manage instructions
+        for specific code sections by creating easily accessible, inline TODO notes.
+        Instead of scrolling through lengthy code files to reference instructions,
+        you can simply add "// TODO() number within the code. This automatically generates
+        a dedicated section where you can write detailed instructions or tasks related
+        to that TODO, allowing you to view the tasks directly at the relevant code location.]]>
+    </description>
+
+    <actions>
+        <action id="TodoNote" class="com.todogroup.TodoEditorAction"
+                text="Activate Todo Notes"
+                icon="AllIcons.General.InspectionsOK">
+            <add-to-group group-id="ToolbarRunGroup" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
